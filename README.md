@@ -1,6 +1,6 @@
 # Real-Time Classifier With TensorRT
 
-This work was conducted on a laptop equipped with Ubuntu 20.04 and an Nvidia GTX 1070 graphics card. The outcomes of the live image classification test are presented below. The study encompasses a performance comparison utilising a pre-existing PyTorch model, converting the .pth format model to ONNX format, and evaluating both models with ONNX Runtime. The results are expressed in frames per second (FPS) values on both the central processing unit (CPU) and the graphics processing unit (GPU) of the aforementioned laptop.
+This work was conducted on a laptop equipped with Ubuntu 20.04 and an Nvidia GTX 1070 graphics card. The outcomes of the real-time image classification test are presented below. The study involves a performance comparison by utilizing a pre-trained PyTorch model, converting the model from .pth to ONNX format, and evaluating both models using ONNX Runtime and TensorRT. The results are measured in frames per second (FPS) on both the CPU and GPU of the system. This study highlights the efficiency of deep learning models in real-time object detection and their performance across different frameworks and inference engines.
 
 
 ## Project Structure
